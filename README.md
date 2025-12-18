@@ -5,7 +5,16 @@ A simple Python application to merge two or more PDF files from an **input** fol
 ## Installation
 
 ```bash
+
+# Clone the repository
 git clone https://github.com/SteffiPGalway/pdf_merger.git
 cd pdf_merger
+
+# 2. Install dependencies in active Python environment
 pip install -r requirements.txt
+
+# run script directly 
 python3 merge_pdf.py
+
+#  run via helper script 
+./run_pdf_merger.sh
